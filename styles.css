@@ -1,0 +1,145 @@
+
+main{
+    overflow-y: scroll;
+}
+header{
+    background-color: whitesmoke;
+
+}
+.header{
+    display: flex;
+    margin: auto ;
+    flex-wrap: wrap;
+}
+.headerOneDev1{
+    display: flex;
+    align-items: center;
+    margin: 20px 40px 20px 100px;
+}
+.headerOneDev2 img{
+border:1px solid black;
+border-radius: 50%;
+margin: 4%;
+}
+.headerOneDev2{
+    display: flex;
+    align-items: center;
+    margin: 20px 40px 20px 40px;
+}
+.headerOneDev3{
+    display: flex;
+    align-items: center;
+    margin: 20px 40px 20px 40px;
+}
+.headerOneDev3 img{
+border:1px solid black;
+border-radius: 50%;
+margin: 4%;
+}
+.headerTwo{
+    display: flex;
+margin: auto;
+flex-wrap: wrap;
+}
+.headerTwoDev1{
+    margin-left: 100px;
+}
+.headerTwoDev2, .headerTwoDev3 {
+    display: flex;
+    align-items: center;
+    margin: 20px 40px 20px 40px;
+    
+}
+input{
+    width: 300px;
+    height: 40px;
+    border: 2px solid black;
+}
+.headerThree{
+    display: flex;
+    margin: auto;
+    background: white;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px #888888;
+
+    
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ ul{
+display: inline-flex;
+margin-left: 20px;
+list-style-type: none;
+flex-wrap: wrap;
+}
+li{
+    padding-left: 1em;
+}
+.slider{
+    display: flex;
+    height: 180px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    float: left;
+
+}
+.addSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+
+}
+.allCategories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left:150px;
+    margin-right: 150px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+.allCategoriesCard{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: fit-content;
+    flex-wrap: wrap;
+    margin: 20px;
+    
+}
+.allCategoryImageDev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    background: red;
+    border-radius: 50px;
+}
+ .mobileSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid black;
+ }  
+ .mobileCards{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 20px;
+    margin: 8px;
+ }
