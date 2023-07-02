@@ -40,9 +40,14 @@ margin: 4%;
     display: flex;
 margin: auto;
 flex-wrap: wrap;
+justify-content: center;
+align-items: center;
 }
 .headerTwoDev1{
     margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .headerTwoDev2, .headerTwoDev3 {
     display: flex;
@@ -55,6 +60,7 @@ input{
     height: 40px;
     border: 2px solid black;
 }
+
 .headerThree{
     display: flex;
     margin: auto;
@@ -63,6 +69,14 @@ input{
     box-shadow: 1px 1px 1px 1px #888888;
 
     
+}
+#loginBtn{
+    height: fit-content;
+    border: none;
+}
+#sellBtn{
+    height: fit-content;
+    border-radius: 20px;
 }
 .categories{
     display: flex;
@@ -127,19 +141,30 @@ li{
     background: red;
     border-radius: 50px;
 }
- .mobileSection{
+.cardImgDev{
+    display: flex;
+    justify-content: center;
+}
+ .mobileSection, .carSection ,.bikeSection{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
     height: fit-content;
-    border: 1px solid black;
+    /* border: 1px solid black; */
  }  
- .mobileCards{
-    border: 1px solid black;
+ .mobileCards, .carCards,.bikeCards{
+    border: 1px solid silver;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     width: 250px;
     padding: 20px;
     margin: 8px;
  }
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: whitesmoke;
+}
+ 
