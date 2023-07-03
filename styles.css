@@ -52,7 +52,7 @@ align-items: center;
 .headerTwoDev2, .headerTwoDev3 {
     display: flex;
     align-items: center;
-    margin: 20px 40px 20px 40px;
+    margin: 20px 40px 20px 30px;
     
 }
 input{
@@ -166,5 +166,18 @@ footer{
     display: flex;
     justify-content: space-around;
     background: whitesmoke;
+    
+}
+.followUs{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.followUsIcon{
+    width: 200px;
+    display: flex;
+    justify-content: start;
+    align-content: space-around;
 }
  
